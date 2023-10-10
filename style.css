@@ -119,12 +119,16 @@ header{
 }
 
 @keyframes move-right {
-    from { left: -200%; }
-    to { left: 120%; }
+    from { right: -200%; }
+    to { right: 120%; }
 }
 
 .images{
-    width: 30%;
+    width: 25%;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.313));
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 footer{
@@ -174,8 +178,22 @@ mark {
 
 .postcards{
     width: 25%;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.313));
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .pamphlet{
     width: 100%;
+}
+
+footer{
+    display: block;
+    position:relative;
+    font-family: Lato, serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: end;
+    margin-top: 600px;
 }
