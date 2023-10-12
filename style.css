@@ -10,34 +10,50 @@
 
 .onebody{
     background-color: #e8b120;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
     margin-top: 30px;
+    margin-bottom: 100px;
     overflow-x: hidden;
 }
 
 .twobody{
     background-color: #207ae8;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
     margin-top: 30px;
+    margin-bottom: 100px;
     overflow-x: hidden;
 }
 
 .threebody{
     background-color: #e88120;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
     margin-top: 30px;
+    margin-bottom: 100px;
     overflow-x: hidden;
 }
 
 .fourbody{
     background-color: #22b573;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
     margin-top: 30px;
+    margin-bottom: 100px;
     overflow-x: hidden;
+
+}
+
+.extrabody{
+    background-image: url(./ELEMENTS/background.png);
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    background-size: 105%;
+    background-repeat: no-repeat;
 }
 
 header{
@@ -55,9 +71,9 @@ header{
     margin-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
-    padding: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
     overflow: visible;
 }
 
@@ -108,7 +124,7 @@ header{
     float: left;
 }
 
-.moveable-image{
+.cart{
     width: 200%;
     display: block;
     position: absolute;
@@ -163,6 +179,15 @@ button {
     -webkit-transform: rotate(-135deg);
 }
 
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    position: absolute;
+    margin: -25px;
+    margin-top: 100px;
+    z-index: 1;
+}
+
 h1{
     margin-top: 50px;
 }
@@ -196,4 +221,26 @@ footer{
     color: #ffffff;
     text-align: end;
     margin-top: 600px;
+}
+
+.external{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.external{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.external:hover{
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.moveable-image{
+    width: 4.7%;
+    padding-left: 995px;
+    padding-top: 352px;
+    z-index: 0;
 }
