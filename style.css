@@ -244,3 +244,8 @@ footer{
     padding-top: 352px;
     z-index: 0;
 }
+
+.footerclass{
+    margin-top: 50px;
+    text-align: center;
+}
